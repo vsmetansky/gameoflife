@@ -1,6 +1,6 @@
 import Field from './modules/field.js';
 
-const FIELD_DIM = 100;
+const FIELD_DIM = 50;
 const ALIVE_NUM = 1000;
 const SPACE_KEY_CODE = 'Space';
 
