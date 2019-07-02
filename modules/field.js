@@ -48,8 +48,6 @@ function updateBuffers(aliveCells, toBeBornCells, toBeDeadCells, rows) {
         aliveLookAround(c[1], c[0], rows, toBeDeadCells);
         deadLookAround(c[1], c[0], rows, toBeBornCells);
     });
-    console.log(toBeBornCells);
-    console.log(toBeDeadCells);
 }
 
 function aliveLookAround(x, y, rows, toBeDeadCells) {
