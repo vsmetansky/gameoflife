@@ -1,0 +1,27 @@
+html,
+body,
+#app {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#app>table {
+    height: 80vmin;
+    width: 80vmin;
+}
+
+table {
+    border-collapse: collapse;
+}
+
+table,
+td {
+    border: 0.5px solid rgb(212, 212, 212);
+}
